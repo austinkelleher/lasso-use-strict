@@ -1,0 +1,38 @@
+{
+  "name": "lasso-use-strict",
+  "version": "1.0.0",
+  "description": "Lasso plugin for adding 'use strict' statements to JavaScript files.",
+  "main": "index.js",
+  "directories": {
+    "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinkelleher/lasso-use-strict.git"
+  },
+  "keywords": [
+    "lasso",
+    "use",
+    "strict",
+    "plugin"
+  ],
+  "author": "Austin Kelleher, a@alk.im",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austinkelleher/lasso-use-strict/issues"
+  },
+  "homepage": "https://github.com/austinkelleher/lasso-use-strict#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint-config-semistandard": "^7.0.0",
+    "lasso": "^2.11.3",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "lasso": "^2.11.3"
+  }
+}
